@@ -1,0 +1,57 @@
+header {
+    width: 379px;
+    height: 1024px;
+    background-color: #000000;
+    position: fixed;
+}
+.Thai-Street {
+    margin-top: 61px;
+    font-family: Menlo;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+nav, li {
+    list-style-type: none;
+}
+.menu {
+    margin-top: 150px;
+    text-align: center;
+    font-family: Menlo;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #d8d8d8;
+}
+.about {
+    margin-top: 100px;
+    text-align: center;
+    font-family: Menlo;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #d8d8d8;
+}
+.order {
+    margin-top: 100px;
+    text-align: center;
+    font-family: Menlo;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #d8d8d8;
+}
