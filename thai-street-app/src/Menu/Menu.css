@@ -11,10 +11,9 @@
 .para{
     width: 100vw;
     height: 1000px;
-    background: url('../images/background_img.jpg'), url('../images/fruit_salad.jpg');
-    background-size: 100%;
-    background-attachment: fixed;
-    background-position: center;
+    background: url('../images/Photos_Parallax.png');
+    /* background-attachment: fixed; */
+    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
 }
