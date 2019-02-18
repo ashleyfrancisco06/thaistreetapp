@@ -16,7 +16,9 @@ const Header = () => {
           </li>
           <li className="about">About</li>
           <li className="order">
-                    <a href= "http://www.rhongtiamnyc.com/menu.aspx">Order Online</a>
+            <a href="https://www.beyondmenu.com/29547/new-york/rhong-tiam-new-york-10010.aspx?utm_source=satellite&utm_medium=menu_group#group_609819">
+              Order Online
+            </a>
           </li>
         </nav>
         <Footer />
