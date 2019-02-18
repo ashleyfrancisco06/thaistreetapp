@@ -6,7 +6,7 @@ const Menu = () => {
         <div className="para">
             <div className="Rectangle">
                 <h2>Menu</h2>
-                <div>content</div>
+                <div className="content">content</div>
             </div>
         </div>
     )
