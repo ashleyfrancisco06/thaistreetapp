@@ -16,7 +16,7 @@ class App extends Component {
         <Header />
         <Route path='/' exact component={ Home } /> 
         <Route path='/menu' exact component={ Menu } /> 
-        <Footer />
+       
       </div>
     );
   }
