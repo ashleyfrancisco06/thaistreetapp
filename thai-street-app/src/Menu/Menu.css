@@ -4,7 +4,18 @@
     height: 3726px;
     background-color: white;
     text-align: center;
-    position: absolute;
+    position:absolute;
+   
+}
+.para{
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/background_img.jpg'), url('../images/fruit_salad.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h2 {
     font-size: 25px;
