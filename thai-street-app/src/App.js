@@ -3,6 +3,7 @@ import './App.css';
 
 import Header from './Header/Header.js'
 import Menu from './Menu/Menu.js'
+import Home from './Home/Home'
 
 class App extends Component {
 
@@ -10,6 +11,7 @@ class App extends Component {
     return (
       <div className="app">
         <Header />
+        <Home />
         <Menu />
       </div>
     );

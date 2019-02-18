@@ -1,0 +1,11 @@
+.home{
+    margin:0 auto;
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/background_img.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

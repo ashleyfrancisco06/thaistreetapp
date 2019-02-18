@@ -1,6 +1,4 @@
 .app {
-  width: 100vw;
-  height: 100vh;
-  background-color: aqua; /*this is the temporary background*/
-  position: fixed; /*whoever is adding images to the background UNDO THIS FIXED POSITION*/
+  margin:-10px -10px -10px 0;
+
 }
