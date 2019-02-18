@@ -2,7 +2,7 @@
     margin-top: 10%;
     margin-left: 40%;
     width: 55%;
-    height: 3726px;
+    height: 2400px;
     background-color: white;
     text-align: center;
     position:absolute;
@@ -10,12 +10,12 @@
 }
 .para{
     width: 100vw;
-    height: 1000px;
-    background: url('../images/Photos_Parallax.png');
-    /* background-attachment: fixed; */
-    /* background-position: center; */
+    height: 2600px;
+    background: url('../images/background_img.jpg');
+    background-attachment: fixed; 
+     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 h2 {
     font-size: 10%;
