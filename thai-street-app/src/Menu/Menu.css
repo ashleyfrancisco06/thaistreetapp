@@ -1,7 +1,8 @@
 .Rectangle {
-    margin-left: 433px;
-    width: 704px;
-    height: 3726px;
+    margin-top: 10%;
+    margin-left: 40%;
+    width: 55%;
+    height: 100%;
     background-color: white;
     text-align: center;
     position:absolute;
@@ -9,7 +10,7 @@
 }
 .para{
     width: 100vw;
-    height: 100vh;
+    height: 1000px;
     background: url('../images/background_img.jpg'), url('../images/fruit_salad.jpg');
     background-size: 100%;
     background-attachment: fixed;
@@ -18,7 +19,7 @@
     background-size: cover;
 }
 h2 {
-    font-size: 25px;
+    font-size: 10%;
     margin-top: 61px;
     font-family: Menlo;
     font-size: 25px;

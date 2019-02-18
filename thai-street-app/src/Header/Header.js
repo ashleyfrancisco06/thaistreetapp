@@ -1,14 +1,15 @@
 import React from 'react'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 import Footer from '../Footer/Footer.js'
 
 const Header = () => {
     return (
         <header>
-            <h1 className="Thai-Street">Thai Street</h1>
+            <h1 className="Thai-Street"><Link to='/'>Thai Street</Link></h1>
             <nav>
-                <li className="menu">Menu</li>
+                <li className="menu"><Link to='/menu'>Menu</Link></li>
                 <li className="about">About</li>
                 <li className="order">Order Online</li>
             </nav>
