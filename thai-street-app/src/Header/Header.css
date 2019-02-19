@@ -17,8 +17,10 @@ header {
     letter-spacing: normal;
     color: #ffffff;
   }
-nav, li {
+nav, li, a{
     list-style-type: none;
+    text-decoration: none;
+    color: white;
 }
 
 .menu {
