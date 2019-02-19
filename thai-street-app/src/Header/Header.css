@@ -47,6 +47,7 @@ nav, li {
     header {
         width: 110vw;
         height: 150px;
+        z-index: 99;
     }
 
     .Thai-Street{

@@ -28,9 +28,9 @@ span {
       bottom: 0px;
       left: 0px;
       right: 0px;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
       text-shadow: 3px 3px black;
-      font-size: 15pt;
+      font-size: 11pt;
     }
 
     .menu, .about {
