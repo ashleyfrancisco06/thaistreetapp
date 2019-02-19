@@ -1,8 +1,7 @@
 header {
     margin-left: -20px;
-    margin-top: -10px;
     width: 379px;
-    height: 1024px;
+    height: 100vh;
     background-color: #000000;
     position: fixed;
 }
@@ -10,7 +9,7 @@ header {
     margin-top: 61px;
     font-family: Menlo;
     text-align: center;
-    font-size: 30px;
+    font-size: 25pt;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -21,11 +20,19 @@ header {
 nav, li {
     list-style-type: none;
 }
+
 .menu {
-    margin-top: 150px;
+    margin-top: 100px;
+}
+
+.about, .order {
+    margin-top: 50px;
+}
+
+.menu, .about, .order {
+    font-size: 16pt;
     text-align: center;
     font-family: Menlo;
-    font-size: 25px;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
@@ -33,27 +40,30 @@ nav, li {
     letter-spacing: normal;
     color: #d8d8d8;
 }
-.about {
-    margin-top: 100px;
-    text-align: center;
-    font-family: Menlo;
-    font-size: 25px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #d8d8d8;
-}
-.order {
-    margin-top: 100px;
-    text-align: center;
-    font-family: Menlo;
-    font-size: 25px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #d8d8d8;
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (orientation: portrait) { 
+    header {
+        width: 110vw;
+        height: 150px;
+    }
+
+    .Thai-Street{
+        margin-top: 10px;
+    }
+
+    nav {
+        display: inline-flex;
+        width: 100vw;
+    }
+
+    li{
+        flex: 1;
+        margin-left: 25px;
+    }
+
+    .menu, .about, .order {
+        margin-top: 25px;
+    }
 }
