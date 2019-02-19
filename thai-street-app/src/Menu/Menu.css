@@ -7,10 +7,7 @@
     margin-top: 10%;
     margin-left: 40%;
     width: 55%;
-
     height: 2125px;
-    height: 2400px;
-
     background-color: white;
     text-align: center;
     position:absolute;
@@ -18,15 +15,10 @@
 }
 .para{
     width: 100vw;
-
     height: 2500px;
-    background: url('../images/Photos_Parallax.png');
-
-    height: 2600px;
     background: url('../images/background_img.jpg');
     background-attachment: fixed; 
      background-position: center;
-
     background-repeat: no-repeat;
     background-size: 100%;
 }
