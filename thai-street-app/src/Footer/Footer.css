@@ -14,7 +14,26 @@ span {
     text-align: center;
 }
 .fab {
-    color: white;
+    color: #d8d8d8;
     margin-left: 30px;
     margin-right: 30px;
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (orientation: portrait) { 
+    footer{
+      color: #d8d8d8;
+      position: fixed;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      margin-bottom: 10px;
+      text-shadow: 3px 3px black;
+      font-size: 11pt;
+    }
+
+    .menu, .about {
+      margin-top: 35px;
+    }
 }
