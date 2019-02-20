@@ -1,4 +1,5 @@
 import React from 'react'
+import Map from '../Map/Map.js'
 import './About.css'
 const About =()=>{
     return (
@@ -6,6 +7,7 @@ const About =()=>{
         <h1 className="About-Us">About Us</h1>
         <div>
         <div>
+          <Map />
         <h3 className="Our-Story">Our Story</h3>
             <p className="Thai-Street-offers">
           Thai Street offers delicious dining, takeout and delivery to New
