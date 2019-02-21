@@ -9,7 +9,6 @@
     flex-direction: row-reverse;
     margin-right: 450px;
     justify-content: space-between;
-    padding:30px;
 }
 .bottom{
     display: flex;
@@ -23,7 +22,7 @@
     flex-direction: column;
 }
 span{
-    padding:20px;
+    padding:10px;
 }
 .About-Us {
   width: 121px;
