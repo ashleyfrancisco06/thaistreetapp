@@ -2,7 +2,28 @@
 .About {
   width: 1440px;
   height: 1019px;
-  
+ margin-left:400px;
+}
+.top{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 450px;
+    justify-content: space-between;
+    padding:30px;
+}
+.bottom{
+    display: flex;
+    margin-right: 600px;
+    padding:30px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.words{
+    display: flex;
+    flex-direction: column;
+}
+span{
+    padding:20px;
 }
 .About-Us {
   width: 121px;
@@ -15,6 +36,8 @@
   line-height: normal;
   letter-spacing: normal;
   color: #f10522;
+  padding:230px;
+  margin-left:150px;
 }
 .Our-Story {
   width: 114px;
@@ -27,8 +50,9 @@
   line-height: normal;
   letter-spacing: normal;
   color: #f10522;
+  padding:20px;
 }
-.Thai-Street-offers-d {
+.Thai-Street-offers{
   width: 379px;
   height: 414px;
   font-family: Menlo;
@@ -51,6 +75,7 @@
   line-height: normal;
   letter-spacing: normal;
   color: #f10522;
+   padding:20px;
 }
 .The-estimated-delive {
   width: 378px;
@@ -96,4 +121,7 @@
 }
 .Store-Hours-Mon---F .text-style-2 {
   color: #f10522;
+}
+.red{
+    color: #f10522;
 }
