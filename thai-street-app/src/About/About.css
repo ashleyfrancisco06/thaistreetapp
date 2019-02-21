@@ -1,8 +1,11 @@
-
+body{
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 .About {
   width: 1440px;
   height: 1019px;
- margin-left:400px;
+  margin-left:400px;
 }
 .top{
     display: flex;
@@ -35,8 +38,8 @@ span{
   line-height: normal;
   letter-spacing: normal;
   color: #f10522;
-  padding:230px;
-  margin-left:150px;
+  padding:100px;
+  margin-left: 23%;
 }
 .Our-Story {
   width: 114px;
@@ -74,7 +77,7 @@ span{
   line-height: normal;
   letter-spacing: normal;
   color: #f10522;
-   padding:20px;
+  padding:20px;
 }
 .The-estimated-delive {
   width: 378px;
@@ -123,4 +126,44 @@ span{
 }
 .red{
     color: #f10522;
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (orientation: portrait) { 
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .About {
+      width: 100vw;
+      height: auto;
+      margin-left: 0;
+      padding-bottom: 100px;
+    }
+    .About-Us {
+      padding-bottom: 50px;
+      margin-left: -7%;
+    }
+    .top{
+        margin-right: 0px;
+        font-size: 14pt;
+        display: block;
+    }
+    .bottom{
+        margin-right: 0px;
+        padding:30px;
+        font-size: 14pt;
+        display: block;
+    }
+    .Our-Story, .Thai-Street-offers{
+      padding: 20px;
+      margin-right: 20px;
+      padding-right: 20px;
+    }
+
+    .We-Deliver{
+      padding: 0px;
+      margin-bottom: 0px;
+    }
 }

@@ -28,9 +28,11 @@ span {
       bottom: 0px;
       left: 0px;
       right: 0px;
-      margin-bottom: 10px;
+      /*margin-bottom: 10px;*/
       text-shadow: 3px 3px black;
       font-size: 11pt;
+      background: black;
+      padding: 5px;
     }
 
     .menu, .about {
